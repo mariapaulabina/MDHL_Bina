@@ -4,13 +4,39 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* -------------- HEADER ------------------*/
 header {
   display: block;
   background-image: url(./design1_image1.jpg);
   background-position: 14% 84%;
-     
-   
-  
+  }
+
+/* -------------------MAIN --------*/
+h2{
+  display: block;
+  background-color: black;
+  color:aliceblue;
+  text-align: center;
 }
 
+/*----------------- TABLA ------------------ */
+
+  table{
+    border-collapse: collapse;
+    border: 1px solid black;  
+  }
+  caption{
+    caption-side: top;
+  }
+  thead{
+    background-color: yellow;
+  }
+  th, tr, td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+  /*----------------------------------*/
+  span{
+    font-weight: bold;
+  }
